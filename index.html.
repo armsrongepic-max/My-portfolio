@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strong-Tech | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <img src="profile.png" alt="My Profile Picture" width="150">
+        <h1>Sunay Emmanuel Makanjuola </h1>
+        <p>Aspiring Web Developer | Content Creator | Entrepreneur</p>
+        <hr>
+    </header>
+
+    <!-- About Section -->
+    <section>
+        <h2>About Me</h2>
+        <p>
+            Hello! My name is Sunay Emmanuel Makanjuola . I am learning web development.
+            I am passionate about technology, online business, and creativity.
+        </p>
+    </section>
+
+    <hr>
+
+    <!-- Skills Section -->
+    <section>
+        <h2>My Skills</h2>
+        <ul>
+            <li>HTML (Beginner)</li>
+            <li>Content Writing</li>
+            <li>YouTube Script Writing</li>
+            <li>Basic Graphic Design</li>
+        </ul>
+    </section>
+
+    <hr>
+
+    <!-- Projects Section -->
+    <section>
+        <h2>My Projects</h2>
+
+        <h3>1. YouTube Automation Channel Idea</h3>
+        <p>
+            A storytelling YouTube channel focused on relationship stories
+            and life lessons.
+        </p>
+
+        <h3>2. News Writing Samples</h3>
+        <p>
+            I have written multiple news leads and reporting examples
+            as part of my media studies practice.
+        </p>
+
+    </section>
+
+    <hr>
+
+    <!-- Contact Section -->
+    <section>
+        <h2>Contact Me</h2>
+        <form>
+           <section id="contact">
+
+    <form action="https://formsubmit.co/makinsemmanuel@gmail.com" method="POST">
+        
+        <!-- Name -->
+        <label for="fullname">Full Name:</label><br>
+        <input type="text" id="fullname" name="name" required><br><br>
+
+        <!-- Email -->
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <!-- Message -->
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+        <!-- Submit -->
+        <button type="submit">Send Message</button>
+
+        <!-- Optional: Redirect after submit -->
+        <input type="hidden" name="_next" value="https://yourdomain.com/thank-you.html">
+
+        <!-- Optional: Disable Captcha -->
+        <input type="hidden" name="_captcha" value="false">
+        
+    </form>
+</section>
+        </form>
+    </section>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <button id="darkModeBtn">Toggle Dark Mode</button>
+        <p>© 2026 Sunday Emmanuel makanjuola. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+</html>
