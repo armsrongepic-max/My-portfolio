@@ -65,9 +65,7 @@
     <section>
         <h2>Contact Me</h2>
         <form>
-           <section id="contact">
-
-    <form action="https://formsubmit.co/makinsemmanuel@gmail.com" method="POST">
+ <form action="https://formsubmit.co/makinsemmanuel@gmail.com" method="POST">
         
         <!-- Name -->
         <label for="fullname">Full Name:</label><br>
@@ -89,9 +87,6 @@
 
         <!-- Optional: Disable Captcha -->
         <input type="hidden" name="_captcha" value="false">
-        
-    </form>
-</section>
         </form>
     </section>
 
