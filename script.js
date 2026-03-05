@@ -1,5 +1,5 @@
 // Welcome Message
-alert("Welcome to Strong Epic's Portfolio Website!");
+alert("Welcome to Strong-Tech's Portfolio Website!");
 
 // Change Header Color When Clicked
 const header = document.querySelector("header h1");
